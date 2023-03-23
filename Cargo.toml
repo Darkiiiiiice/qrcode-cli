@@ -1,5 +1,5 @@
 [package]
-name = "qrcode-cli"
+name = "qrcli"
 version = "1.0.0"
 edition = "2021"
 categories = ["development-tools::procedural-macro-helpers", "parser-implementations"]

@@ -1,15 +1,15 @@
-# qrcode-cli
+# qrcli
 
 [简体中文](../README.md) | [English](README_en.md)
 
-qrcode-cli is a command-line tool for generating QR codes in the terminal. It allows users to quickly generate QR codes in the terminal, which can be used in documents, web pages, advertisements, and other places.
+qrcli is a command-line tool for generating QR codes in the terminal. It allows users to quickly generate QR codes in the terminal, which can be used in documents, web pages, advertisements, and other places.
 
 ### Installation
 
-qrcode-cli can be easily installed using cargo. Use the following command:
+qrcli can be easily installed using cargo. Use the following command:
 
 ``` bash
-cargo install qrcode-cli
+cargo install qrcli
 ```
 
 ### Usage
@@ -17,30 +17,30 @@ cargo install qrcode-cli
 To generate a QR code, run the following command in the terminal:
 
 ``` bash
-qrcode-cli encode <CONTENT>
+qrcli encode <CONTENT>
 ```
 
 For example, to generate a QR code and output "Hello, world!" to the terminal, run the following command:
 
 ``` bash
-qrcode-cli encode "Hello, world!"
+qrcli encode "Hello, world!"
 ```
 
 If you want to save the QR code to a file, use the following command:
 
 ``` bash
-qrcode-cli encode "Hello, world!" -o ~/images
+qrcli encode "Hello, world!" -o ~/images
 ```
 
 To decode a QR code image, use the following command:
 
 ``` bash
-qrcode-cli decode ./image/a.png
+qrcli decode ./image/a.png
 ```
 
 ### 选项
 
-qrcode-cli supports the following options:
+qrcli supports the following options:
 
 * encode Generate QR code
   * -o Output PNG image
@@ -52,10 +52,10 @@ qrcode-cli supports the following options:
 * -V Version
 
 ``` bash
-$ qrcode-cli help
+$ qrcli help
 qrcode encode and decode
 
-Usage: qrcode-cli <COMMAND>
+Usage: qrcli <COMMAND>
 
 Commands:
   encode
@@ -70,8 +70,8 @@ Options:
 help encode
 
 ``` bash
-$ qrcode-cli help encode
-Usage: qrcode-cli encode [OPTIONS] <CONTENT>
+$ qrcli help encode
+Usage: qrcli encode [OPTIONS] <CONTENT>
 
 Arguments:
   <CONTENT>
@@ -87,8 +87,8 @@ Options:
 help decode
 
 ``` bash
-$ qrcode-cli help decode
-Usage: qrcode-cli decode <IMAGE_PATH>
+$ qrcli help decode
+Usage: qrcli decode <IMAGE_PATH>
 
 Arguments:
   <IMAGE_PATH>

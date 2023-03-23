@@ -5,7 +5,7 @@ use rqrr;
 // define a struct to store args
 // contain Commands enum
 #[derive(Debug, Parser)]
-#[command(name = "qrcode")]
+#[command(name = "qrcli")]
 #[command(version = "0.1.0")]
 #[command(author = "MarioMang <darkiiiiiice@gmail>")]
 #[command(about = "qrcode encode and decode")]

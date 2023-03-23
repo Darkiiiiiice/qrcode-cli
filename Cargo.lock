@@ -636,6 +636,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "qrcli"
+version = "1.0.0"
+dependencies = [
+ "clap",
+ "image 0.24.5",
+ "qrcode",
+ "qrcode-png",
+ "rqrr",
+]
+
+[[package]]
 name = "qrcode"
 version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -643,17 +654,6 @@ checksum = "16d2f1455f3630c6e5107b4f2b94e74d76dea80736de0981fd27644216cff57f"
 dependencies = [
  "checked_int_cast",
  "image 0.23.14",
-]
-
-[[package]]
-name = "qrcode-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "image 0.24.5",
- "qrcode",
- "qrcode-png",
- "rqrr",
 ]
 
 [[package]]
