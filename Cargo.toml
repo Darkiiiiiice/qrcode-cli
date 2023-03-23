@@ -1,6 +1,6 @@
 [package]
 name = "qrcli"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 categories = ["development-tools::procedural-macro-helpers", "parser-implementations"]
 description = "A QRCode cli tools, can encode and decode"
