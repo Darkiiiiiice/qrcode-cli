@@ -1,5 +1,7 @@
 # qrcode-cli
 
+[简体中文](README.md) | [English](docs/README_en.md)
+
 qrcode-cli 是一个命令行工具，用于在终端上生成 QR 码。它可以在终端上快速生成 QR 码，方便用户将其用于文档、网页、广告等地方。
 
 ### 安装
