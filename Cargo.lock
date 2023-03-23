@@ -637,7 +637,7 @@ dependencies = [
 
 [[package]]
 name = "qrcli"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "clap",
  "image 0.24.5",
